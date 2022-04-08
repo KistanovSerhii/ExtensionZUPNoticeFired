@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<InformationRegister uuid="5fbd4c30-1a47-4a5a-b4b5-436ffe35f991">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.NF_ИсключитьДолжностьИзУведомлений" category="Record">
+				<xr:TypeId>49c43721-75eb-44ec-bb25-bde9fd932e48</xr:TypeId>
+				<xr:ValueId>2fbe837a-c2a8-4082-9ffb-dc28a49dc0f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.NF_ИсключитьДолжностьИзУведомлений" category="Manager">
+				<xr:TypeId>78138bdf-1050-405c-8c37-cc96ed0a4fe1</xr:TypeId>
+				<xr:ValueId>ecd0177f-e4a2-4482-9abc-d481c3d9cc75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.NF_ИсключитьДолжностьИзУведомлений" category="Selection">
+				<xr:TypeId>d83543c6-e8a6-4286-ba8e-5c1d86422aeb</xr:TypeId>
+				<xr:ValueId>98f8fcb3-c59d-4e63-b1ed-afc76ea4700a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.NF_ИсключитьДолжностьИзУведомлений" category="List">
+				<xr:TypeId>2630bff2-c170-4a9b-a394-96a936af2650</xr:TypeId>
+				<xr:ValueId>72bc245e-3fa1-4f8f-bb96-69eb1fbbf0db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.NF_ИсключитьДолжностьИзУведомлений" category="RecordSet">
+				<xr:TypeId>92300bd8-3cd5-4402-96f9-cbbba1a2502a</xr:TypeId>
+				<xr:ValueId>3d4a83ee-2845-4583-bfe9-b231c5119a9b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.NF_ИсключитьДолжностьИзУведомлений" category="RecordKey">
+				<xr:TypeId>e5431d49-4a05-453b-8543-c2de24d6ed92</xr:TypeId>
+				<xr:ValueId>2b95f024-dc0a-4321-aec4-17b9d3bb6777</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.NF_ИсключитьДолжностьИзУведомлений" category="RecordManager">
+				<xr:TypeId>98da31ed-ccf6-4a99-b373-8eafb208f362</xr:TypeId>
+				<xr:ValueId>3386c625-52ca-4726-93bb-8e5a2272c683</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>NF_ИсключитьДолжностьИзУведомлений</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исключить должность из уведомлений</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Нет смысла уведомлять о увольнении сезонного работника (виноградарь), у которого ни при каких условиях не будет выдан доступ к учетным системам</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<EditType>InDialog</EditType>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<AuxiliaryRecordForm/>
+			<AuxiliaryListForm/>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<MainFilterOnPeriod>false</MainFilterOnPeriod>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
+			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="d70f45d5-afe7-44a6-a64c-33cd15beda1c">
+				<Properties>
+					<Name>ПозицияШтатногоРасписания</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Позиция штатного расписания</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШтатноеРасписание</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>
